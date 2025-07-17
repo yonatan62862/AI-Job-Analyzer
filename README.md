@@ -46,48 +46,48 @@ npm run dev
 
 7. Open your browser at: http://localhost:5173
 
-📁 Folder Structure:
-client/
- src
-├── App.css
-├── App.tsx
-├── assets
-│   └── react.svg
-├── components
-│   ├── DashboardCharts.tsx
-│   ├── DashboardTable.tsx
-│   ├── FiltersBar.tsx
-│   ├── KpiCards.tsx
-│   └── Navbar.tsx
-├── hooks
-│   └── useDashboardAggregations.ts
-├── index.css
-├── main.tsx
-├── pages
-│   ├── Assistant.tsx
-│   └── Dashboard.tsx
-├── services
-│   └── logService.ts
-├── types.ts
-└── vite-env.d.ts
+## 📁 Folder Structure
+📦 client/
+├── 📁 src/
+│   ├── 📄 App.tsx
+│   ├── 📄 App.css
+│   ├── 📄 main.tsx
+│   ├── 📄 index.css
+│   ├── 📄 types.ts
+│   ├── 📄 vite-env.d.ts
+│   ├── 📁 assets/
+│   │   └── 📄 react.svg
+│   ├── 📁 components/
+│   │   ├── 📄 DashboardCharts.tsx
+│   │   ├── 📄 DashboardTable.tsx
+│   │   ├── 📄 FiltersBar.tsx
+│   │   ├── 📄 KpiCards.tsx
+│   │   └── 📄 Navbar.tsx
+│   ├── 📁 pages/
+│   │   ├── 📄 Assistant.tsx
+│   │   └── 📄 Dashboard.tsx
+│   ├── 📁 hooks/
+│   │   └── 📄 useDashboardAggregations.ts
+│   └── 📁 services/
+│       └── 📄 logService.ts
 
-server/
-src
-├── app.ts
-├── controllers
-│   ├── assistantController.ts
-│   ├── dashboardController.ts
-│   └── kpiController.ts
-├── index.ts
-├── models
-│   └── logModel.ts
-├── prompts
-│   └── logAnalyzerPrompt.ts
-├── routes
-│   ├── assistantRoute.ts
-│   ├── dashboardRoute.ts
-│   └── kpiRoute.ts
-└── services
-    └── geminiService.ts
+📦 server/
+├── 📁 src/
+│   ├── 📄 index.ts
+│   ├── 📄 app.ts
+│   ├── 📁 controllers/
+│   │   ├── 📄 assistantController.ts
+│   │   ├── 📄 dashboardController.ts
+│   │   └── 📄 kpiController.ts
+│   ├── 📁 routes/
+│   │   ├── 📄 assistantRoute.ts
+│   │   ├── 📄 dashboardRoute.ts
+│   │   └── 📄 kpiRoute.ts
+│   ├── 📁 models/
+│   │   └── 📄 logModel.ts
+│   ├── 📁 prompts/
+│   │   └── 📄 logAnalyzerPrompt.ts
+│   └── 📁 services/
+│       └── 📄 geminiService.ts
 
 
